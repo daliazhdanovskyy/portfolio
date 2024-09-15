@@ -6,40 +6,69 @@
     <title>Dalia Zhdanovskyy - Anthropologist</title>
     <style>
         body {
-           
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: left;
+            align-items: left;
             height: 100vh;
+            background: #030104;
+            font-family: monospace;
+            color: #c128af; /* Default text color */
         }
         .container {
-            background-color: white;
             padding: 20px;
-            border-radius: 10px;
-            text-align: center;
+            text-align: left;
+            max-width: 800px;
+            width: 100%;
         }
         h1 {
-            color: #333;
+            color: #c128af; /* Heading color */
+            font-size: 2em;
+            line-height: 1.2;
+            margin-bottom: 20px;
         }
         p {
-            color: #555;
+            color: #c128af;
+            margin: 10px 0;
         }
         a {
-            color: #1a73e8;
+            color: #a028c1;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
+        pre {
+            color: #c128af; /* ASCII art color */
+            font-size: 12px;
+            white-space: pre-wrap; /* Preserve whitespace */
+            overflow-wrap: break-word;
+            animation: pulse 1.5s infinite; /* Animation */
+            font-family: 'Courier New', monospace; /* Monospaced font */
+            text-align: left;
+            margin: 20px 0;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Dalia Zhdanovskyy</h1>
-        <img src="/Users/nazarg./Desktop/icon.png" alt="Icon Image">
-        <p>Hi, I’m Dalia, a Kharkiv-born, St Andrews-based anthropologist researching the eerie undercurrents of the Russian war on Ukraine. Currently, I’m working on my PhD at the Department of Social Anthropology at St. Andrews.</p>
+        <pre>
+ { { \ ,~,
+{ {   \)))  *
+ { {  (((  /
+  {/{/; ,\/
+     (( '
+      \` \
+      (/  \
+      `)  `\                                                                                                             
+        </pre>
+        <p>Dalia Zhdanovskyy, a Kharkiv-born, St Andrews-based anthropologist researching the eerie undercurrents of the Russian war on Ukraine. Currently, I’m working on my PhD at the Department of Social Anthropology at St. Andrews.</p>
         <p>Reach me at <a href="mailto:daliazhdanovskyy@gmail.com">daliazhdanovskyy@gmail.com</a>.</p>
     </div>
 </body>
